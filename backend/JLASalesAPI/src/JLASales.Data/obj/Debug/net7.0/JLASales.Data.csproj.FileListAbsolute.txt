@@ -1,0 +1,12 @@
+C:\dev\jla-sales\backend\JLASalesAPI\src\JLASales.Data\bin\Debug\net7.0\JLASales.Data.deps.json
+C:\dev\jla-sales\backend\JLASalesAPI\src\JLASales.Data\bin\Debug\net7.0\JLASales.Data.dll
+C:\dev\jla-sales\backend\JLASalesAPI\src\JLASales.Data\bin\Debug\net7.0\JLASales.Data.pdb
+C:\dev\jla-sales\backend\JLASalesAPI\src\JLASales.Data\obj\Debug\net7.0\JLASales.Data.csproj.AssemblyReference.cache
+C:\dev\jla-sales\backend\JLASalesAPI\src\JLASales.Data\obj\Debug\net7.0\JLASales.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\jla-sales\backend\JLASalesAPI\src\JLASales.Data\obj\Debug\net7.0\JLASales.Data.AssemblyInfoInputs.cache
+C:\dev\jla-sales\backend\JLASalesAPI\src\JLASales.Data\obj\Debug\net7.0\JLASales.Data.AssemblyInfo.cs
+C:\dev\jla-sales\backend\JLASalesAPI\src\JLASales.Data\obj\Debug\net7.0\JLASales.Data.csproj.CoreCompileInputs.cache
+C:\dev\jla-sales\backend\JLASalesAPI\src\JLASales.Data\obj\Debug\net7.0\JLASales.Data.dll
+C:\dev\jla-sales\backend\JLASalesAPI\src\JLASales.Data\obj\Debug\net7.0\refint\JLASales.Data.dll
+C:\dev\jla-sales\backend\JLASalesAPI\src\JLASales.Data\obj\Debug\net7.0\JLASales.Data.pdb
+C:\dev\jla-sales\backend\JLASalesAPI\src\JLASales.Data\obj\Debug\net7.0\ref\JLASales.Data.dll

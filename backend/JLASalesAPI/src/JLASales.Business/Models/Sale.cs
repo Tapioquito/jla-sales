@@ -11,7 +11,7 @@ namespace JLASales.Business.Models
         public Guid VendorId { get; set; }
         public Guid VehicleId { get; set; }
         public double SaleValue { get; set; }
-        public DateTime SaleDate { get; set; }
+        public DateTime SaleDate { get; set; } = DateTime.Now;
 
         //EF Relations:
         public Vendor Vendor { get; set; }

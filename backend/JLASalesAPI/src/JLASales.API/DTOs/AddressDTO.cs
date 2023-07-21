@@ -36,5 +36,7 @@ namespace JLASales.API.DTOs
 
         public Guid VendorId { get; set; }
 
+
+
     }
 }

@@ -9,7 +9,6 @@
   <ItemGroup>
     <Folder Include="Models\Valdations\" />
     <Folder Include="Notifications\" />
-    <Folder Include="Interfaces\" />
     <Folder Include="Services\" />
   </ItemGroup>
 

@@ -19,6 +19,8 @@ namespace JLASales.API.DTOs
 
         public Guid SaleValue { get; set; }
 
+        public DateTime SaleDate { get; set; }
+
 
         public string VendorName { get; set; }
 

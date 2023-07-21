@@ -1,11 +1,27 @@
+using AutoMapper;
+using JLASales.API.Configurations;
+using JLASales.Data.Context;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+builder.Services.AddDbContext<JLASalesDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
 
 // Add services to the container.
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddAutoMapper(typeof(Program));
+
 builder.Services.AddSwaggerGen();
+
+builder.Services.ResolveDependencies();
 
 var app = builder.Build();
 

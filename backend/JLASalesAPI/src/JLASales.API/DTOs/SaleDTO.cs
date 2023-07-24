@@ -17,7 +17,7 @@ namespace JLASales.API.DTOs
 
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
 
-        public Guid SaleValue { get; set; }
+        public double SaleValue { get; set; }
 
         public DateTime SaleDate { get; set; }
 

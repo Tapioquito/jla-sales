@@ -10,3 +10,8 @@ C:\dev\jla-sales\backend\JLASalesAPI\src\JLASales.Data\obj\Debug\net7.0\JLASales
 C:\dev\jla-sales\backend\JLASalesAPI\src\JLASales.Data\obj\Debug\net7.0\refint\JLASales.Data.dll
 C:\dev\jla-sales\backend\JLASalesAPI\src\JLASales.Data\obj\Debug\net7.0\JLASales.Data.pdb
 C:\dev\jla-sales\backend\JLASalesAPI\src\JLASales.Data\obj\Debug\net7.0\ref\JLASales.Data.dll
+C:\dev\jla-sales\backend\JLASalesAPI\src\JLASales.Data\bin\Debug\net7.0\JLASales.Data.runtimeconfig.json
+C:\dev\jla-sales\backend\JLASalesAPI\src\JLASales.Data\bin\Debug\net7.0\JLASales.Business.dll
+C:\dev\jla-sales\backend\JLASalesAPI\src\JLASales.Data\bin\Debug\net7.0\JLASales.Business.pdb
+C:\dev\jla-sales\backend\JLASalesAPI\src\JLASales.Data\obj\Debug\net7.0\JLASales.Data.csproj.CopyComplete
+C:\dev\jla-sales\backend\JLASalesAPI\src\JLASales.Data\obj\Debug\net7.0\JLASales.Data.genruntimeconfig.cache

@@ -27,11 +27,14 @@ namespace JLASales.Data.Mappings
             builder.HasOne(v => v.Address)// O vendedor possui 1 endereço
                 .WithOne(v => v.Vendor);//Este endereço está vinculado a 1 vendedor
 
+
             //Configuração 1 : N (um para muitos) => Um Vendedor possui VÁRIAS Vendas:
             builder.HasMany(v => v.Sales)// Um vendedor possui várias vendas
                 .WithOne(v => v.Vendor) // Uma venda possui 1 vendedor
                 .HasForeignKey(v => v.VendorId)// Informa a chave estrangeira do vendedor (VendorId)
                 .HasForeignKey(v => v.VehicleId);// Informa a chave estrangeira do veículo (VehicleId)
+
+            builder.ToTable("Vendors");
         }
     }
 }

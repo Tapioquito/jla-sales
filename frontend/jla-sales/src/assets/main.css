@@ -1,4 +1,47 @@
-@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+}
+
+.blue {
+  /* background-color: #274a9d;*/
+  background-color: darkgray;
+}
+
+.green {
+  background-color: #03c874;
+}
+.white-text {
+  font-family: Jost;
+  font-weight: 500;
+  color: #d9d9d9;
+}
+.login-title {
+  color: #26324b;
+  font-family: Jost;
+  font-weight: 500;
+  font-size: 3.125rem;
+  line-height: 6vh;
+}
+.title-text {
+  font-size: 1.5rem;
+  line-height: 35px;
+}
+.full-height {
+  height: 100vh;
+}
+.form-width {
+  max-width: 17.96875vw;
+}
+.jla-logo {
+  width: 26.041666666666668vw;
+  height: 52.02913631633715vh;
+}
+/*@import './base.css';
 
 #app {
   max-width: 1280px;
@@ -33,3 +76,4 @@ a,
     padding: 0 2rem;
   }
 }
+*/

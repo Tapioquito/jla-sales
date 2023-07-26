@@ -10,7 +10,7 @@
       <div class="col d-flex flex-column p-2 justify-content-center">
         <div class="container justify-content-center">
           <div class="container"><p class="login-title">Entrar</p></div>
-          <form>
+          <form @submit.prevent="handleLogin">
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Email </label>
               <input type="email" class="form-control form-width" aria-describedby="emailHelp" />
@@ -30,7 +30,13 @@
 </template>
 <script>
 export default {
-  name: 'LoginView'
+  name: 'LoginView',
+  methods: {
+    handleLogin() {
+      /*inserir lógica de passar os dados do input pra API*/
+      //this.$router.push('/dashboard')
+    }
+  }
 }
 </script>
 <style>

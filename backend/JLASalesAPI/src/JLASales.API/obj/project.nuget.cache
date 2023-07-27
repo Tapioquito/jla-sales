@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KaNbKQxbT38kNN2iJDn0i1FybMdvqNnZmZCYe69q4vLrI02MaKkqjS6Y/yy+SMrYlQJ/4iGNub4kRG7RlqQNHg==",
+  "dgSpecHash": "/zWhRHgh8IP4pI/sXB8OvGVE1ytWYR44l4goo1XlIck5mUE19d00lbEA/taT0iuY9+hYjmPwFQ8270vnydUD3A==",
   "success": true,
   "projectFilePath": "C:\\dev\\jla-sales\\backend\\JLASalesAPI\\src\\JLASales.API\\JLASales.API.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\tapio\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\tapio\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\tapio\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\tapio\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512",
     "C:\\Users\\tapio\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\tapio\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.9\\microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
     "C:\\Users\\tapio\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

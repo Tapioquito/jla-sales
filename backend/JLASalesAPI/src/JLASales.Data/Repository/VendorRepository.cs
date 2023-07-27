@@ -23,13 +23,13 @@ namespace JLASales.Data.Repository
                    .FirstOrDefaultAsync(c => c.Id == id);
         }
 
-        /* public async Task<Vendor> GetVendorVehiclesAndress(Guid id)
-         {
-             return await Db.Vendors.AsNoTracking()
-                 .Include(c => c.Sales)
-                 .Include(c => c.Address)
-                 .FirstOrDefault(c => c.Id == id);
-         }
-        */
+        public async Task<Vendor> GetVendorSalesAndress(Guid id)
+        {
+            return await Db.Vendors.AsNoTracking()
+                .Include(c => c.Sales)
+                .Include(c => c.Address)
+                .FirstOrDefaultAsync(c => c.Id == id);
+        }
+
     }
 }

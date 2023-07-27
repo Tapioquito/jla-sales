@@ -9,9 +9,10 @@ namespace JLASales.Business.Interfaces
 {
     public interface IVendorService : IDisposable
     {
-        Task Add(Vendor vendor);
-        Task Update(Vendor vendor);
-        Task Delete(Vendor vendor);
+        Task<bool> Add(Vendor vendor);
+        Task<bool> Update(Vendor vendor);
+        Task<bool> Delete(Guid id);
 
+        Task UpdateAddress(Address address);
     }
 }

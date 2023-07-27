@@ -9,7 +9,9 @@ namespace JLASales.Business.Interfaces
 {
     public interface IVendorRepository : IRepository<Vendor>
     {
+
+       // Task<Vendor> GetVendorById(Guid id);
         Task<Vendor> GetVendorsAdress(Guid id);
-        //Task<Vendor> GetVendorVehiclesAndress(Guid id);
+        Task<Vendor> GetVendorSalesAndress(Guid id);
     }
 }

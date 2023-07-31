@@ -1,27 +1,25 @@
 <template>
-  <div class="container-fluid">
-    <div class="row row-cols-2 full-height">
-      <div class="col white-text d-flex flex-column p-2 justify-content-center">
-        <div class="d-flex justify-content-center">
-          <img class="jla-logo" src="../../assets/icons/jla-logo.svg" />
+  <div class="container mx-auto">
+    <div class="grid grid-cols-2 gap-2 height">
+      <div class="col-start-1 col-end-2 flex flex-col justify-center items-center">
+        <div class="">
+          <img alt="logomarca-da-empresa" class="jla-logo" src="../../assets/icons/jla-logo.svg" />
         </div>
       </div>
 
-      <div class="col d-flex flex-column p-2 justify-content-center">
-        <div class="container justify-content-center">
-          <div class="container"><p class="login-title">Entrar</p></div>
+      <div class="col-start-2 col-end-3 flex flex-col justify-center items-center">
+        <div class="flex flex-col height justify-center items-center">
+          <div class=""><p class="login-title">Entrar</p></div>
           <form @submit.prevent="handleLogin">
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email </label>
-              <input type="email" class="form-control form-width" aria-describedby="emailHelp" />
-              <div id="emailHelp" class="form-text">Use seu login fornecido pelo administrador</div>
+            <div class="flex flex-col">
+              <input placeholder="Email..." type="email" class="input" />
+              <div class="label-text">Use seu login fornecido pelo administrador</div>
             </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Senha</label>
-              <input type="password" class="form-control form-width" />
+            <div class="flex flex-col">
+              <input placeholder="Senha..." type="password" class="input" />
             </div>
 
-            <button type="submit" class="btn btn-primary">Entrar</button>
+            <button type="submit" class="login-button">Login</button>
           </form>
         </div>
       </div>
@@ -34,13 +32,14 @@ export default {
   methods: {
     handleLogin() {
       /*inserir lógica de passar os dados do input pra API*/
-      //this.$router.push('/dashboard')
+      this.$router.push('/dashboard')
     }
   }
 }
 </script>
+
 <style>
-.test {
-  background-color: red;
+.form-gap {
+  column-gap: 20px;
 }
 </style>

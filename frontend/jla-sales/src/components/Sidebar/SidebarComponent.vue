@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div><nav class="">SIDEBAR</nav></div>
 </template>
 <script>
 export default {

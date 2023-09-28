@@ -1,9 +1,9 @@
 <template>
-  <div class="container">
+  <div class="container-md grid grid-cols-5 grid-rows-5 height">
     <SidebarComponent></SidebarComponent>
-    <div class="container">
+    <div class="container-md">
       <HeaderComponent></HeaderComponent>
-      <div class="container">MAIN CONTENT<RouterView /></div>
+      <div class="container-sm"><RouterView /></div>
     </div>
   </div>
 </template>

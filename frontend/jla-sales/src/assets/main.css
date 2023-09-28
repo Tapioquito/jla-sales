@@ -23,14 +23,7 @@
   font-weight: 500;
   color: #d9d9d9;
 }
-.login-title {
-  color: #26324b;
-  font-family: Jost;
-  font-weight: 500;
-  font-size: 3.125rem;
-  line-height: 6vh;
-  margin-bottom: 3.25vh;
-}
+
 .title-text {
   font-size: 1.5rem;
   line-height: 35px;
@@ -42,6 +35,7 @@
 .jla-logo {
   width: 26.041666666666668vw;
   height: 52.02913631633715vh;
+  background-color: #a3a798;
 }
 
 .input {
@@ -59,19 +53,7 @@
   margin-left: 15px;
   font-size: 0.9rem;
 }
-.login-button {
-  padding: 0.3125rem 8.9375rem;
-  align-items: flex-start;
-  gap: 0.625rem;
-  border-radius: 0.25rem;
-  background-color: #0275d8;
-  color: #f1f1f1;
-  margin-top: 4.159733777038269vh;
-  font-family: Jost;
-  font-size: 1.25rem;
-  font-weight: 700;
-  line-height: normal;
-}
+
 .header-greeting {
   font-family: Jost;
   font-weight: 700;
@@ -89,6 +71,15 @@
   text-align: center;
 }
 /*======================================= LOGIN PAGE =======================================*/
+
+.login-title {
+  color: #26324b;
+  font-family: Jost;
+  font-weight: 500;
+  font-size: 3.125rem;
+  line-height: 6vh;
+  margin-bottom: 3.25vh;
+}
 .login-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -96,11 +87,12 @@
   column-gap: 2px;
 }
 .login-logo-area {
-  grid-column-start: 1;
+  /*grid-column-start: 1;
   grid-column-end: 2;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center;*/
+  background-color: #a3a798;
 }
 .login-form-area {
   grid-column-start: 2;
@@ -109,6 +101,47 @@
   flex-direction: column;
   justify-content: center;
 }
+.login-button {
+  padding: 0.3125rem 8.9375rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  border-radius: 0.25rem;
+  background-color: #111b74;
+  color: #f1f1f1;
+  margin-top: 4.159733777038269vh;
+  font-family: Jost;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/*======================================= DASHBOARD =======================================*/
+
+/*======================================= SIDEBAR =======================================*/
+.sidebar {
+  background-color: #74776b;
+}
+.jla-logo-sidebar {
+  width: 8rem;
+  height: 12rem;
+  background-color: #74776b;
+}
+.sidebar-button {
+  font-family: Jost;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 7.875rem;
+  height: 2.1875rem;
+  border-radius: 0.25rem;
+  border: 1px solid #74776b;
+  color: #fff;
+  background-color: #74776b;
+}
+.sidebar-icons {
+}
+/*======================================= HEADER =======================================*/
 /*;
 
 #app {

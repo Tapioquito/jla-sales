@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto">
     <div class="grid grid-cols-2 gap-2 height">
-      <div class="col-start-1 col-end-2 flex flex-col justify-center items-center">
+      <div class="col-start-1 col-end-2 flex flex-col justify-center items-center login-logo-area">
         <div class="">
           <img alt="logomarca-da-empresa" class="jla-logo" src="../../assets/icons/jla-logo.svg" />
         </div>

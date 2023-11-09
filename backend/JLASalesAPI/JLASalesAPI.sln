@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JLASales.Domain", "JLASales.Domain\JLASales.Domain.csproj", "{DC50DFB9-EB55-46DE-9EB2-AE823AA368E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JLASales.Business", "JLASales.Business\JLASales.Business.csproj", "{CBDA7C49-7E69-4E9A-B352-53FF5C521C5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DC50DFB9-EB55-46DE-9EB2-AE823AA368E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DC50DFB9-EB55-46DE-9EB2-AE823AA368E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DC50DFB9-EB55-46DE-9EB2-AE823AA368E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DC50DFB9-EB55-46DE-9EB2-AE823AA368E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBDA7C49-7E69-4E9A-B352-53FF5C521C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBDA7C49-7E69-4E9A-B352-53FF5C521C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBDA7C49-7E69-4E9A-B352-53FF5C521C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBDA7C49-7E69-4E9A-B352-53FF5C521C5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D6312CC1-7560-4123-8C05-89BADE08B9AD}
+		SolutionGuid = {FBFBDE74-AB17-42CA-9A0A-1458E25D02B7}
 	EndGlobalSection
 EndGlobal

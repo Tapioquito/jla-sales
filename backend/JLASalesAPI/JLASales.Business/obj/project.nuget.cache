@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QoQJNKwgYbwdXH72IpyZKhIbDrQ9gAFk7yLsyLfrzg8x78Oh7+cbFriYog0CEt1/AanxU+0jPHRslJJnQLqaOQ==",
+  "dgSpecHash": "NDNIN36x853JquuvdP9SL9cN6zjl0OzQWOqdVtJvlVlV+tkdUrSnHQZDppGVmW/lWsX2X1lPTgxdR84rdShY7g==",
   "success": true,
   "projectFilePath": "C:\\dev\\jla-sales\\backend\\JLASalesAPI\\JLASales.Business\\JLASales.Business.csproj",
   "expectedPackageFiles": [

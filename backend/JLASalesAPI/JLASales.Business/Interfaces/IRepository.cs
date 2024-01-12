@@ -12,5 +12,7 @@ namespace JLASales.Business.Interfaces
         Task Remove(Guid id);
         Task<IEnumerable<TEntity>> Search(Expression<Func<TEntity, bool>> prdicate);
         Task<int> SaveChanges();
+        //retorna o número de linhas afetadas no commit
+        //O que interessa é ser MAIOR que zero
     }
 }

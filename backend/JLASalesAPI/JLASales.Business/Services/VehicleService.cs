@@ -1,18 +1,15 @@
 ﻿using JLASales.Business.Interfaces;
 using JLASales.Business.Models;
 using JLASales.Business.Models.Validations;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace JLASales.Business.Services
 {
     public class VehicleService : BaseService, IVehicleService
     {
         private readonly IVehicleRepository _vehicleRepository;
-        public VehicleService(IVehicleRepository vehicleRepository, INotifier notifier) : base(notifier)
+        public VehicleService(IVehicleRepository vehicleRepository,
+            INotifier notifier,
+            IUnitOfWork unitOfWork) : base(notifier, unitOfWork)
         {
             _vehicleRepository = vehicleRepository;
         }
@@ -26,22 +23,25 @@ namespace JLASales.Business.Services
                 return;
             }
             await _vehicleRepository.Add(vehicle);
+            await Commit();
         }
         public async Task Update(Vehicle vehicle)
         {
             if (!ExecuteValidation(new VehicleValidation(), vehicle)) return;
             await _vehicleRepository.Update(vehicle);
+            await Commit();
         }
 
 
         public async Task Remove(Guid id)
         {
             await _vehicleRepository.Remove(id);
+            await Commit();
         }
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            _vehicleRepository?.Dispose();
         }
     }
 }

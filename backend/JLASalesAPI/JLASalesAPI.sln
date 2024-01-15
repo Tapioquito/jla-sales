@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JLASales.Business", "JLASales.Business\JLASales.Business.csproj", "{CBDA7C49-7E69-4E9A-B352-53FF5C521C5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JLASales.Business", "JLASales.Business\JLASales.Business.csproj", "{CBDA7C49-7E69-4E9A-B352-53FF5C521C5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JLASales.Data", "JLASales.Data\JLASales.Data.csproj", "{14FF3BA9-BD56-4A84-9E0A-34DC62C7FDB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CBDA7C49-7E69-4E9A-B352-53FF5C521C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBDA7C49-7E69-4E9A-B352-53FF5C521C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBDA7C49-7E69-4E9A-B352-53FF5C521C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14FF3BA9-BD56-4A84-9E0A-34DC62C7FDB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14FF3BA9-BD56-4A84-9E0A-34DC62C7FDB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14FF3BA9-BD56-4A84-9E0A-34DC62C7FDB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14FF3BA9-BD56-4A84-9E0A-34DC62C7FDB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

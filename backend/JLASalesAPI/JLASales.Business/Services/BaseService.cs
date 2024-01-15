@@ -12,10 +12,12 @@ namespace JLASales.Business.Services
 
 
         private readonly INotifier _notifier;
+        private readonly IUnitOfWork _unitOfWork;
 
-        protected BaseService(INotifier notifier)
+        protected BaseService(INotifier notifier, IUnitOfWork unitOfWork)
         {
             _notifier = notifier;
+            _unitOfWork = unitOfWork;
         }
 
         protected bool ExecuteValidation<TValidation, TEntity>(TValidation validation, TEntity entity)
@@ -40,6 +42,13 @@ namespace JLASales.Business.Services
 
                 Notify(error.ErrorMessage);
             }
+        }
+        protected async Task<bool> Commit()
+        {
+            if (await _unitOfWork.Commit()) return true;
+
+            Notify("Não foi possível salvar os dados no BD");
+            return false;
         }
     }
 }

@@ -5,11 +5,11 @@ namespace JLASales.Business.Interfaces
 {
     public interface IRepository<TEntity> : IDisposable where TEntity : Entity
     {
-        Task Add(TEntity entity);
+        void Add(TEntity entity);
         Task<TEntity> GetById(Guid id);
         Task<List<TEntity>> GetAll();
-        Task Update(TEntity entity);
-        Task Remove(Guid id);
+        void Update(TEntity entity);
+        void Remove(Guid id);
         Task<IEnumerable<TEntity>> Search(Expression<Func<TEntity, bool>> prdicate);
         Task<int> SaveChanges();
         //retorna o número de linhas afetadas no commit

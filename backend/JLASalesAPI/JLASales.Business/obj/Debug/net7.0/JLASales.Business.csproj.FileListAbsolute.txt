@@ -1,0 +1,13 @@
+C:\dev\jla-sales\backend\JLASalesAPI\JLASales.Business\bin\Debug\net7.0\JLASales.Business.deps.json
+C:\dev\jla-sales\backend\JLASalesAPI\JLASales.Business\bin\Debug\net7.0\JLASales.Business.dll
+C:\dev\jla-sales\backend\JLASalesAPI\JLASales.Business\bin\Debug\net7.0\JLASales.Business.pdb
+C:\dev\jla-sales\backend\JLASalesAPI\JLASales.Business\obj\Debug\net7.0\JLASales.Business.csproj.AssemblyReference.cache
+C:\dev\jla-sales\backend\JLASalesAPI\JLASales.Business\obj\Debug\net7.0\JLASales.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\jla-sales\backend\JLASalesAPI\JLASales.Business\obj\Debug\net7.0\JLASales.Business.AssemblyInfoInputs.cache
+C:\dev\jla-sales\backend\JLASalesAPI\JLASales.Business\obj\Debug\net7.0\JLASales.Business.AssemblyInfo.cs
+C:\dev\jla-sales\backend\JLASalesAPI\JLASales.Business\obj\Debug\net7.0\JLASales.Business.csproj.CoreCompileInputs.cache
+C:\dev\jla-sales\backend\JLASalesAPI\JLASales.Business\obj\Debug\net7.0\JLASales.Business.sourcelink.json
+C:\dev\jla-sales\backend\JLASalesAPI\JLASales.Business\obj\Debug\net7.0\JLASales.Business.dll
+C:\dev\jla-sales\backend\JLASalesAPI\JLASales.Business\obj\Debug\net7.0\refint\JLASales.Business.dll
+C:\dev\jla-sales\backend\JLASalesAPI\JLASales.Business\obj\Debug\net7.0\JLASales.Business.pdb
+C:\dev\jla-sales\backend\JLASalesAPI\JLASales.Business\obj\Debug\net7.0\ref\JLASales.Business.dll

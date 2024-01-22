@@ -4,9 +4,9 @@ namespace JLASales.Business.Interfaces
 {
     public interface IVehicleRepository : IRepository<Vehicle>
     {
-        Task<IEnumerable<Vehicle>> GetVehiclesVendors();
-        //retorna todos os veículos com seus respectivos vendedores
-        Task<Vehicle> GetVehicleVendor(Guid id);
-        //retorna um veículo com seu respectivo vendedor
+        Task<IEnumerable<Vehicle>> GetVehicles();
+        //retorna todos os veículos
+        Task<Vehicle> GetVehicle(Guid id);
+        //retorna um veículo
     }
 }

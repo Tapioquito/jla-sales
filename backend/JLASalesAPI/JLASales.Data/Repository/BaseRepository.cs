@@ -17,10 +17,10 @@ namespace JLASales.Data.Repository
         protected readonly JLASalesDBContext Db;
         protected readonly DbSet<TEntity> DbSet;
 
-        protected BaseRepository(JLASalesDBContext db, DbSet<TEntity> dbSet)
+        protected BaseRepository(JLASalesDBContext db)
         {
             Db = db;
-            DbSet = dbSet;
+            DbSet = Db.Set<TEntity>();
         }
 
         public async virtual Task<TEntity> GetById(Guid id)
@@ -54,7 +54,7 @@ namespace JLASales.Data.Repository
 
         public async Task<int> SaveChanges()
         {
-           return await Db.SaveChangesAsync();
+            return await Db.SaveChangesAsync();
         }
         public void Dispose()
         {

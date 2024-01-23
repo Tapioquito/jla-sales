@@ -11,9 +11,6 @@ namespace JLASales.Business.Models
     public class Address : Entity
     {
 
-        public Guid VendorId { get; set; }
-
-
         public string StreetName { get; set; }
 
         public string AdditionalInfo { get; set; }

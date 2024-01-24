@@ -22,20 +22,20 @@ namespace JLASales.Business.Services
                 Notify("já existe um veículo idêntico cadastrado!");
                 return;
             }
-            await _vehicleRepository.Add(vehicle);
+            _vehicleRepository.Add(vehicle);
             await Commit();
         }
         public async Task Update(Vehicle vehicle)
         {
             if (!ExecuteValidation(new VehicleValidation(), vehicle)) return;
-            await _vehicleRepository.Update(vehicle);
+            _vehicleRepository.Update(vehicle);
             await Commit();
         }
 
 
         public async Task Remove(Guid id)
         {
-            await _vehicleRepository.Remove(id);
+            _vehicleRepository.Remove(id);
             await Commit();
         }
 

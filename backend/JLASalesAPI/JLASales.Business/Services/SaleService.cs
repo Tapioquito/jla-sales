@@ -23,13 +23,13 @@ namespace JLASales.Business.Services
                 Notify("Já existe uma venda com este mesmo id!");
                 return;
             }
-            await _saleRepository.Add(sale);
+            _saleRepository.Add(sale);
             await Commit();
         }
         public async Task Update(Sale sale)
         {
             if (!ExecuteValidation(new SaleValidation(), sale)) return;
-            await _saleRepository.Update(sale);
+            _saleRepository.Update(sale);
             await Commit();
         }
 
@@ -41,7 +41,7 @@ namespace JLASales.Business.Services
             {
                 Notify("Não foi localizado uma venda com este id"); return;
             }
-            await _saleRepository.Remove(id);
+            _saleRepository.Remove(id);
             await Commit();
 
         }

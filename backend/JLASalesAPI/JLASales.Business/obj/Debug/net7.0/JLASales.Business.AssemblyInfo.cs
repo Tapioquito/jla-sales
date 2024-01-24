@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JLASales.Business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53ab89d287621b7759b8ab65bbcd8adaff2bd25d")]
 [assembly: System.Reflection.AssemblyProductAttribute("JLASales.Business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JLASales.Business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
